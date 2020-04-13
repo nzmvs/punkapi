@@ -8,8 +8,6 @@ Flask
 requests
 
 ## Usage
-In console, first
-* example
-    export FLASK_APP=app.py
-* then
-    flask run
+In console
+* export FLASK_APP=app.py
+* flask run
