@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekniskt test för ApoEx</title>
+</head>
+<body>
+    <h3>{{ name }}</h3>
+    <div>
+        <input type="text" placeholder="What do you fancy?" id="searchField"></input>
+        <button ttitle="Search" id="searchButton">Search</button>
+    </div>
+    <div>
+        <div class="container">
+            <p id="searchInfo"></p>
+            <table id="beerTable"></table>
+            <p id="noData"></p>
+            <div id="detailsWrapper"></div>
+        </div>
+        <div>
+            <button id="previous" disabled>Previous</button>
+            <button id="next" disabled>Next</button>
+        </div>
+    </div>
+</body>
+<script src="/static/app.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/app.css"></script>
+</html>

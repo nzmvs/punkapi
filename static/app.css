@@ -1,0 +1,19 @@
+button {
+    width: 80px;
+}
+
+table {
+    font-size: medium;
+}
+
+th.abv, td.abv {
+    text-align: right;
+}
+
+button.details {
+    text-align: center;
+}
+
+#detailsWrapper {
+    width: 30%;
+}
