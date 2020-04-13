@@ -4,8 +4,9 @@
 A simple Flask app that interacts with PunkAPI through a basic html page.
 
 ## Dependecies
-Flask
-requests
+* Python >=3.6
+* Flask
+* requests
 
 ## Usage
 In console
